@@ -4,12 +4,12 @@ cask "chromesnap" do
 
   on_macos do
     on_intel do
-      sha256 "80a71bf9155520b529e617a744bcc36d8b8fa1d3d447708def5f4e7ab6fb007a"
+      sha256 "1674dca8de3d1d01636b3c648529492882f4135a0f2847d7caa725f770e12697"
       url "https://github.com/normal-coder/chromesnap/releases/download/v#{version}/chromesnap_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/normal-coder/chromesnap"
     end
     on_arm do
-      sha256 "433a4e5d47051e4438c35d68464d750436621a1e775795962f97ff6347b10591"
+      sha256 "eaab24e88c5c97b6bbd48d1c9ee21db0616eaf507b26824b00366f58a6dcb28c"
       url "https://github.com/normal-coder/chromesnap/releases/download/v#{version}/chromesnap_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/normal-coder/chromesnap"
     end
@@ -17,12 +17,12 @@ cask "chromesnap" do
 
   on_linux do
     on_intel do
-      sha256 "9d76e3d4429d68d42f11cfa70976a970628373405c264c204c2826b563896a0f"
+      sha256 "f4a2a50154b68951f5f6f36434c99801d9e90dfa63c6f39e4b661c97d9e71a33"
       url "https://github.com/normal-coder/chromesnap/releases/download/v#{version}/chromesnap_#{version}_linux_amd64.tar.gz",
         verified: "github.com/normal-coder/chromesnap"
     end
     on_arm do
-      sha256 "3c754a79a68fdbfbe8e636dc450fab0249f0ec8094f35763b1efbd92dd5417c0"
+      sha256 "db383b291a66cc2fcb32cb66d81a711eceb3132c0f941dbf52985fa9fad50662"
       url "https://github.com/normal-coder/chromesnap/releases/download/v#{version}/chromesnap_#{version}_linux_arm64.tar.gz",
         verified: "github.com/normal-coder/chromesnap"
     end
